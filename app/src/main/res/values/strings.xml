@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">Lottery Syndicate Manager</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="error_text">Error shown here</string>
+    <string name="append">Append File</string>
+    <string name="read">Read File</string>
+    <string name="create">Create File</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_main">Syndicate Manager</string>
+    <string name="title_section1">About Syndicate Manager</string>
+    <string name="title_section2">All Syndicate Members</string>
+    <string name="title_section3">Draw Details</string>
+    <string name="title_section4">Show Results</string>
+    <string name="title_section5">Add/Edit Syndicate Member</string>
+    <string name="title_section6">Syndicate App Settings</string>
+
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="about1">Allows you to maintain your syndicate members and their number choices as well as checking the draw results for each member.</string>
+    <string name="about2">It is assumed that the syndicate operates for a calendar year from 1st January.</string>
+    <string name="about3">Draw data is maintained for the full year allowing retrospective checking with the current member choices.</string>
+    <string name="about4">The three main UK lottery draws are supported:</string>
+    <string name="lotto">Lotto - Each team member is required to select 6 different numbers between 1 and 59 inclusive. Cash winning rows start from 3 numbers giving a fixed Â£25.00 prize. 2 numbers gives a free lucky dip entry.</string>
+    <string name="euro">Euromillions - Each team member is required to select 5 different main numbers between 1 and 49 inclusive and 2 lucky star numbers between 1 and 11 inclusive. </string>
+    <string name="euro_prizes">Prizes start from 2 numbers and these are usually around the Â£3.00 mark.</string>
+    <string name="tball">Thunderball - Each team member is required to select 5 different main numbers between 1 and 39 inclusive and one Thunderball between 1 and 14 inclusive. Prizes start from  getting the Thunderball correct, which gives a return of Ã‚Â£3.00. The maximum prize in the Thunderball is currently Ã‚Â£500,000.00.</string>
+    <string name="fullrules">Full rules at </string>
+    <string name="link"><a href="https://www.national-lottery.co.uk/"> UK National Lottery</a></string>
+
+    <string name="settings_help">Select Lottery, draw day and choose syndicate name</string>
+    <string name="member_name_hint">Enter Name</string>
+    <string name="member_email_hint">Enter Email</string>
+    <string name="member_ball1_hint">Enter Ball 1</string>
+    <string name="member_ball2_hint">Enter Ball 2</string>
+    <string name="member_ball3_hint">Enter Ball 3</string>
+    <string name="member_ball4_hint">Enter Ball 4</string>
+    <string name="member_ball5_hint">Enter Ball 5</string>
+    <string name="member_lucky_star1_hint">Enter Lucky Star 1</string>
+    <string name="member_lucky_star2_hint">Enter Lucky Star 2</string>
+    <string name="syndicate_name_hint">Syndicate Name</string>
+
+
+    <string name="list_item_member_name">Name</string>
+    <string name="list_item_member_email">Email</string>
+    <string name="list_item_ball1">B1</string>
+    <string name="list_item_ball2">B2</string>
+    <string name="list_item_ball3">B3</string>
+    <string name="list_item_ball4">B4</string>
+    <string name="list_item_ball5">B5</string>
+    <string name="list_item_luckystar1">L1</string>
+    <string name="list_item_luckystar2">L2</string>
+
+    <string name="list_item_history_date">01-Jan-2015</string>
+    <string name="list_item_winning_rowcount">0</string>
+
+    <string name="selected_draw_date">Selected Draw Date</string>
+
+    <string name="draw_date">Draw Date</string>
+    <string name="drawn_ball1">10</string>
+    <string name="drawn_ball2">20</string>
+    <string name="drawn_ball3">30</string>
+    <string name="drawn_ball4">40</string>
+    <string name="drawn_ball5">50</string>
+    <string name="drawn_lucky_star1">01</string>
+    <string name="drawn_lucky_star2">11</string>
+
+    <string name="draw_date_hint">dd/mm/yyyy</string>
+    <string name="drawn_ball1_hint">10</string>
+    <string name="drawn_ball2_hint">20</string>
+    <string name="drawn_ball3_hint">30</string>
+    <string name="drawn_ball4_hint">40</string>
+    <string name="drawn_ball5_hint">50</string>
+    <string name="drawn_lucky_star1_hint">01</string>
+    <string name="drawn_lucky_star2_hint">11</string>
+
+    <string name="btnAdd">Add</string>
+    <string name="btnCheck">Check</string>
+    <string name="btnDone">Done</string>
+
+    <string name="day_choice">Choose Lottery draw day</string>
+    <string name="lotto_menu">Lotto</string>
+    <string name="euromillions_menu">EuroMillions</string>
+    <string name="thunderball_menu">Thunderball</string>
+
+    <string name="lotto_day_one">Wednesday</string>
+    <string name="lotto_day_two">Saturday</string>
+
+    <string name="euro_day_one">Tuesday</string>
+    <string name="euro_day_two">Friday</string>
+
+    <string name="thunderball_day_one">Wednesday</string>
+    <string name="thunderball_day_two">Friday</string>
+    <string name="thunderball_day_three">Saturday</string>
+    <string name="title_activity_list_preference">ListPreferenceActivity</string>
+    <string name="title_activity_pref">PrefActivity</string>
+    <string name="title_activity_user_settings">UserSettingsActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+</resources>

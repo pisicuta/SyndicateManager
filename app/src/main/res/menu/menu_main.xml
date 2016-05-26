@@ -1,0 +1,59 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never">
+
+        <!--<item android:id="@+id/lotto_settings"-->
+        <!--android:title="@string/lotto_menu"-->
+        <!--android:orderInCategory="101"-->
+        <!--app:showAsAction="never" >-->
+        <!--<menu>-->
+        <!--<item-->
+        <!--android:id="@+id/lotto_day_one"-->
+        <!--android:title="@string/lotto_day_one"-->
+        <!--/>-->
+        <!--<item-->
+        <!--android:id="@+id/lotto_day_two"-->
+        <!--android:title="@string/lotto_day_two"-->
+        <!--/>-->
+        <!--</menu>-->
+        <!--</item>-->
+        <!--<item android:id="@+id/euromillions_settings"-->
+        <!--android:title="@string/euromillions_menu"-->
+        <!--android:orderInCategory="102"-->
+        <!--app:showAsAction="never" >-->
+        <!--<menu>-->
+        <!--<item-->
+        <!--android:id="@+id/euromillions_day_one"-->
+        <!--android:title="@string/euro_day_one"-->
+        <!--/>-->
+        <!--<item-->
+        <!--android:id="@+id/euromillions_day_two"-->
+        <!--android:title="@string/euro_day_two"-->
+        <!--/>-->
+        <!--</menu>-->
+        <!--</item>-->
+        <!--<item android:id="@+id/thunderball_settings"-->
+        <!--android:title="@string/thunderball_menu"-->
+        <!--android:orderInCategory="102"-->
+        <!--app:showAsAction="never" >-->
+        <!--<menu>-->
+        <!--<item-->
+        <!--android:id="@+id/thunderball_day_one"-->
+        <!--android:title="@string/thunderball_day_one"-->
+        <!--/>-->
+        <!--<item-->
+        <!--android:id="@+id/thunderball_day_two"-->
+        <!--android:title="@string/thunderball_day_two"-->
+        <!--/>-->
+        <!--<item-->
+        <!--android:id="@+id/thunderball_day_three"-->
+        <!--android:title="@string/thunderball_day_three"-->
+        <!--/>-->
+        <!--</menu>-->
+        <!--</item>-->
+    </item>
+</menu>

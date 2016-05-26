@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_about"
+            android:title="Lottery Syndicate About" />
+        <item android:id="@+id/nav_all_members"
+            android:title="Show Syndicate Members" />
+        <item android:id="@+id/nav_draw_history"
+            android:title="Show All Results" />
+        <item android:id="@+id/nav_new_member"
+            android:title="Add Syndicate Member" />
+        <item android:id="@+id/nav_draw_details"
+            android:title="Enter/Show Draw Details" />
+        <item android:id="@+id/nav_settings"
+            android:title="@string/action_settings" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
+                android:title="Share" />
+            <item android:id="@+id/nav_send" android:icon="@android:drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
+

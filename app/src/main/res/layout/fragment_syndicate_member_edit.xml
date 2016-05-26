@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This will display a list of the syndicate members and their chosen draw numbers.
+    Selecting a syndicate member will allow the member details to be editted -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_section5"
+        android:layout_margin="10dp"
+        android:textSize="16sp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:inputType="textCapWords|textPersonName"
+            android:ems="35"
+            android:maxLength="35"
+            android:hint="@string/member_name_hint"
+            android:imeOptions="actionNext"
+            android:background="@drawable/edittext_rounded_corners"
+            android:id="@+id/memberName" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:inputType="textEmailAddress"
+            android:layout_below="@+id/memberName"
+            android:ems="35"
+            android:maxLength="35"
+            android:hint="@string/member_email_hint"
+            android:imeOptions="actionNext"
+            android:background="@drawable/edittext_rounded_corners"
+            android:id="@+id/memberEmail" />
+
+        <!--TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/euro"
+            android:id="@+id/ballEditLabel"
+            android:layout_below="@+id/memberEmail" /-->
+
+        <!--android:layout_below="@+id/ballEditLabel"-->
+        <EditText
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:inputType="number"
+            android:layout_below="@+id/memberEmail"
+            android:ems="2"
+            android:maxLength="2"
+            android:hint="@string/drawn_ball1_hint"
+            android:imeOptions="actionNext"
+            android:background="@drawable/edittext_rounded_corners"
+            android:id="@+id/drawBall1" />
+
+        <EditText
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:inputType="number"
+            android:layout_below="@+id/memberEmail"
+            android:layout_toRightOf="@+id/drawBall1"
+            android:ems="2"
+            android:maxLength="2"
+            android:hint="@string/drawn_ball2_hint"
+            android:imeOptions="actionNext"
+            android:background="@drawable/edittext_rounded_corners"
+            android:id="@+id/drawBall2" />
+
+        <EditText
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:inputType="number"
+            android:layout_below="@+id/memberEmail"
+            android:layout_toRightOf="@+id/drawBall2"
+            android:ems="2"
+            android:maxLength="2"
+            android:hint="@string/drawn_ball3_hint"
+            android:imeOptions="actionNext"
+            android:background="@drawable/edittext_rounded_corners"
+            android:id="@+id/drawBall3" />
+
+        <EditText
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:inputType="number"
+            android:layout_below="@+id/memberEmail"
+            android:layout_toRightOf="@+id/drawBall3"
+            android:ems="2"
+            android:maxLength="2"
+            android:hint="@string/drawn_ball4_hint"
+            android:imeOptions="actionNext"
+            android:background="@drawable/edittext_rounded_corners"
+            android:id="@+id/drawBall4" />
+
+        <EditText
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:inputType="number"
+            android:layout_below="@+id/memberEmail"
+            android:layout_toRightOf="@+id/drawBall4"
+            android:ems="2"
+            android:maxLength="2"
+            android:hint="@string/drawn_ball5_hint"
+            android:imeOptions="actionNext"
+            android:background="@drawable/edittext_rounded_corners"
+            android:id="@+id/drawBall5" />
+
+        <EditText
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:inputType="number"
+            android:layout_below="@+id/memberEmail"
+            android:layout_toRightOf="@+id/drawBall5"
+            android:ems="2"
+            android:maxLength="2"
+            android:hint="@string/drawn_lucky_star1_hint"
+            android:imeOptions="actionNext"
+            android:background="@drawable/edittext_rounded_corners"
+            android:id="@+id/drawLuckyStar1" />
+
+        <EditText
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:inputType="number"
+            android:layout_below="@+id/memberEmail"
+            android:layout_toRightOf="@+id/drawLuckyStar1"
+            android:ems="2"
+            android:maxLength="2"
+            android:hint="@string/drawn_lucky_star2_hint"
+            android:imeOptions="actionNext"
+            android:background="@drawable/edittext_rounded_corners"
+            android:id="@+id/drawLuckyStar2" />
+
+
+        <Button
+            android:id="@+id/button_add_member_details"
+            android:textColor="#ffffff"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ovalbutton"
+            android:text="@string/btnDone"
+            android:layout_toRightOf="@+id/drawLuckyStar2"
+            android:layout_below="@+id/memberEmail"
+            />
+    </RelativeLayout>
+    <!--        android:layout_height="wrap_content"          -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_section2"
+        android:padding="5dp"
+        android:textSize="16sp"/>
+
+    <!-- A RecyclerView with some commonly used attributes -->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/draw_history_recycler_view"
+        android:scrollbars="vertical"
+        android:background="@color/white_transparent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
+

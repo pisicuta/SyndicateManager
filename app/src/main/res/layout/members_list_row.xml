@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/members_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="@string/list_item_member_name"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/members_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_below="@id/members_name"
+        android:text="@string/list_item_member_email"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/members_ball1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minEms="1"
+        android:maxEms="2"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/members_email"
+        android:padding="8dp"
+        android:text="@string/list_item_ball1"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/members_ball2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minEms="1"
+        android:maxEms="2"
+        android:layout_toRightOf="@id/members_ball1"
+        android:layout_below="@id/members_email"
+        android:padding="8dp"
+        android:text="@string/list_item_ball2"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/members_ball3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minEms="1"
+        android:maxEms="2"
+        android:padding="8dp"
+        android:text="@string/list_item_ball3"
+        android:textStyle="bold"
+        android:layout_below="@+id/members_email"
+        android:layout_toRightOf="@+id/members_ball2"
+        android:layout_toEndOf="@+id/members_ball2" />
+
+    <TextView
+        android:id="@+id/members_ball4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minEms="1"
+        android:maxEms="2"
+        android:padding="8dp"
+        android:text="@string/list_item_ball4"
+        android:textStyle="bold"
+        android:layout_below="@+id/members_email"
+        android:layout_toRightOf="@+id/members_ball3"
+        android:layout_toEndOf="@+id/members_ball3" />
+
+    <TextView
+        android:id="@+id/members_ball5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minEms="1"
+        android:maxEms="2"
+        android:padding="8dp"
+        android:text="@string/list_item_ball5"
+        android:textStyle="bold"
+        android:layout_below="@+id/members_email"
+        android:layout_toRightOf="@+id/members_ball4"
+        android:layout_toEndOf="@+id/members_ball4" />
+
+    <TextView
+        android:id="@+id/members_lucky_star1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minEms="1"
+        android:maxEms="2"
+        android:padding="8dp"
+        android:text="@string/list_item_luckystar1"
+        android:textStyle="bold"
+        android:layout_below="@+id/members_email"
+        android:layout_toRightOf="@+id/members_ball5"
+        android:layout_toEndOf="@+id/members_ball5" />
+
+    <TextView
+        android:id="@+id/members_lucky_star2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minEms="1"
+        android:maxEms="2"
+        android:padding="8dp"
+        android:text="@string/list_item_luckystar2"
+        android:textStyle="bold"
+        android:layout_below="@+id/members_email"
+        android:layout_toRightOf="@+id/members_lucky_star1"
+        android:layout_toEndOf="@+id/members_lucky_star1" />
+
+</RelativeLayout>

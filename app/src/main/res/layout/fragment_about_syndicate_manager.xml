@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This will display a brief description of the app and what each drawer does. -->
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent" android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv1"
+            android:text="@string/title_section1"
+            android:padding="5dp"
+            android:textSize="16sp"
+            android:layout_alignParentTop="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv2"
+            android:layout_below="@id/tv1"
+            android:text="@string/about1"
+            android:padding="5dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv3"
+            android:layout_below="@id/tv2"
+            android:text="@string/about2"
+            android:padding="5dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv4"
+            android:layout_below="@id/tv3"
+            android:text="@string/about3"
+            android:padding="5dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv5"
+            android:layout_below="@id/tv4"
+            android:text="@string/about4"
+            android:padding="5dp"
+            android:textSize="16sp"/>
+        //
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lotto"
+            android:layout_below="@id/tv5"
+            android:text="@string/lotto"
+            android:padding="5dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/euro"
+            android:layout_below="@id/lotto"
+            android:text="@string/euro"
+            android:padding="5dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tball"
+            android:layout_below="@id/euro"
+            android:text="@string/tball"
+            android:padding="5dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tball"
+            android:id="@+id/fullrules"
+            android:text="@string/fullrules" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tball"
+            android:layout_toRightOf="@id/fullrules"
+            android:id="@+id/link"
+            android:text="@string/link" />
+    </RelativeLayout>
+
+</ScrollView>
